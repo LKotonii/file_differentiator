@@ -16,7 +16,7 @@ public class FileValidator {
 				}
 			}
 		} else {
-			throw new ExtensionNotHandledException();
+			throw new ExtensionNotHandledException("extension is not handled");
 
 		}
 		return false;
