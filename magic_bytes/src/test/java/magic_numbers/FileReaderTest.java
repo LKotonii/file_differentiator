@@ -16,7 +16,7 @@ class FileReaderTest {
 	@Test
 	void magicNumbersOfFileTest() {
 		// given 
-		Path path = Paths.get("/home/rats/Documents/projects/magic_numbers/src/test/resources/Neuron.jpg");
+		Path path = Paths.get("/Neuron.jpg");
 		String neuron_jpg = "FFD8FFE000104A4649460001";
 		
 		// when 
