@@ -37,7 +37,7 @@ public class MainClass {
 	public static void main(String[] args) {
 
 		try {
-			readFile(Paths.get("/home/rats/git/magic_bytes/src/test/resources/poem.txt.jpg"));
+			readFile(Paths.get("/src/test/resources/poem.txt.jpg"));
 		} catch (ExtensionNotHandledException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
