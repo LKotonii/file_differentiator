@@ -55,6 +55,7 @@ public class FileReader {
 		return null;
 	}
 
+	// method returns first bytes of the file converted to hexadecimal signature
 	public static String magicNumbersOfFile(Path filePath) {
 
 		StringBuilder st = new StringBuilder("");
