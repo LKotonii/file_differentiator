@@ -16,7 +16,7 @@ class FileValidatorTest {
 	@Test
 	void extensionIsTrueTest() throws ExtensionNotHandledException {
 		// given 
-		Path path = Paths.get("/home/rats/Documents/projects/magic_numbers/src/test/resources/testGif.gif");
+		Path path = Paths.get("/src/test/resources/testGif.gif");
 		
 		// when
 		boolean validated = FileValidator.extensionIsTrue(path);
@@ -27,7 +27,7 @@ class FileValidatorTest {
 	
 	@Test
 	void extensionIsFalseTest() throws ExtensionNotHandledException {
-		Path path = Paths.get("/home/rats/Documents/projects/magic_numbers/src/test/resources/poem.txt.jpeg");
+		Path path = Paths.get("/src/test/resources/poem.txt.jpeg");
 		// when
 				boolean validated = FileValidator.extensionIsTrue(path);
 				// then 
